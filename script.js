@@ -14,7 +14,7 @@
         ];
 
         // Link grup WhatsApp (statis, bisa diganti dengan dinamis jika perlu)
-        const whatsappLink = "https://chat.whatsapp.com/your-group-link-here"; // Ganti dengan link grup WhatsApp yang sebenarnya
+        const whatsappLink = "https://chat.whatsapp.com/JcrRd89FlFB59qxMxQNboL?mode=gi_t"; // Ganti dengan link grup WhatsApp yang sebenarnya
 
         document.getElementById('registrationForm').addEventListener('submit', function(event) {
             event.preventDefault();
@@ -41,4 +41,5 @@
             }
             
             resultDiv.style.display = 'block';
+
         });
